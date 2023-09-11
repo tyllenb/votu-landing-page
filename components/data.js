@@ -11,46 +11,46 @@ import benefitOneImg from "../public/img/benefit-one.png";
 import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Your Suite Of Metrics",
+  desc: "Our quarterly surveys and trend analyses turn vague intuitions into actionable strategies. With Votu, you're not just measuring; you're improving, evolving, and elevating your developer relations.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Turn Feedback into Strategy",
+      desc: "Votu's surveys capture a wealth of developer opinions and translate them into actionable insights. You don't just get data; you get a roadmap for DevRel improvement.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Track Trends Over Time",
+      desc: "Understand the health of your developer ecosystem with our visual dashboards. Track metrics from quarter to quarter to identify both triumphs and areas needing attention.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Cover All Bases",
+      desc: "With ten key metrics designed specifically for DevRel, Votu offers a holistic view of your developer relations strategy. From onboarding effectiveness to API usability, we've got you covered.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Get The Buy In You Deserve",
+  desc: "Show real-time improvements and ROI, making it easier to secure resources and support for your DevRel initiatives. Votu transforms DevRel from a 'nice-to-have' into a 'must-have,' giving you the evidence you need to show its critical role in platform success.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Speak Their Language",
+      desc: "Translate developer satisfaction into metrics and trends that leadership can understand and appreciate. Votu helps you make a compelling case for DevRel investment.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Measure and Showcase Impact",
+      desc: "Utilize Votu's comprehensive metrics to not just understand but also visually present the state of your developer ecosystem, driving home its importance to leadership.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Backed by Data",
+      desc: "Secure more resources for DevRel activities by showing clear ROI through Votu's analytical capabilities. Turn abstract community sentiment into actionable plans that leadership will want to support.",
       icon: <SunIcon />,
     },
   ],

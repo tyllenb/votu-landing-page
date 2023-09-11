@@ -24,14 +24,13 @@ const Navbar = () => {
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <span>
                       <Image
-                        src="/img/logo.svg"
+                        src="/img/VotU.png"
                         alt="N"
-                        width="32"
-                        height="32"
-                        className="w-8"
+                        width="162"
+                        height="162"
+                        className="w-44"
                       />
                     </span>
-                    <span>Nextly</span>
                   </span>
                 </Link>
 
@@ -76,7 +75,7 @@ const Navbar = () => {
         </Disclosure>
 
         {/* menu  */}
-        <div className="hidden text-center lg:flex lg:items-center">
+        {/* <div className="hidden text-center lg:flex lg:items-center">
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
@@ -86,14 +85,14 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
-          <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Get Started
+          <Link href="https://docs.votu.ai/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+              View Our Docs
           </Link>
 
-          <ThemeChanger />
+          {/* <ThemeChanger /> */}
         </div>
       </nav>
     </div>
